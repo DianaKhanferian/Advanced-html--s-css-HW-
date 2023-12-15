@@ -1,0 +1,13 @@
+@mixin flex_center($gap){
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: $gap;
+}
+
+@mixin flex_column_center() {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
